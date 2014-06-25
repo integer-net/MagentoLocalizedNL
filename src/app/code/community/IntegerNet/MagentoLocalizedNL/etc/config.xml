@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Austrian Localization package for Magento Localized (aka Magento NL) 
+ *
+ * @category   IntegerNet
+ * @package    IntegerNet_MagentoLocalizedNL
+ * @copyright  Copyright (c) 2014 integer_net GmbH (http://www.integer-net.de/)
+ * @license    http://opensource.org/licenses/gpl-3.0 GNU General Public License, version 3 (GPLv3)
+ * @author     Andreas von Studnitz <avs@integer-net.de>
+ */
+ -->
+<config>
+    <modules>
+        <IntegerNet_MagentoLocalizedNL>
+            <version>0.1.0</version>
+        </IntegerNet_MagentoLocalizedNL>
+    </modules>
+
+    <default>
+        <general>
+            <country>
+                <allow>NL</allow>
+            </country>
+            <locale>
+                <code>nl_NL</code>
+                <code_fallback></code_fallback>
+                <firstday>1</firstday>
+            </locale>
+            <store_information>
+                <merchant_country>NL</merchant_country>
+            </store_information>
+            <imprint>
+                <shop_name>Beispielshop</shop_name>
+                <company_first>Musterfirma GmbH</company_first>
+                <zip>1234</zip>
+                <street>Musterstr. 1</street>
+                <city>Musterstadt</city>
+                <country>NL</country>
+                <display_copyright>1</display_copyright>
+            </imprint>
+        </general>
+
+        <design>
+            <header>
+                <welcome>Herzlich Willkommen!</welcome>
+            </header>
+        </design>
+
+        <catalog>
+            <custom_options>
+                <time_format>24h</time_format>
+                <date_fields_order>d,m,y</date_fields_order>
+            </custom_options>
+            <baseprice>
+                <base_price_incl_tax>1</base_price_incl_tax>
+                <frontend_label>entspricht {{baseprice}} pro {{reference_amount}} {{reference_unit}}</frontend_label>
+            </baseprice>
+        </catalog>
+
+        <sales>
+            <reorder>
+                <allow>0</allow>
+                <hide_sidebar_box>1</hide_sidebar_box>
+            </reorder>
+        </sales>
+
+        <autoshipping>
+            <settings>
+                <enabled>1</enabled>
+                <country_id>NL</country_id>
+            </settings>
+        </autoshipping>
+
+        <carriers>
+            <flatrate>
+                <title>Versandkosten</title>
+                <name>Pauschal</name>
+                <type>O</type>
+                <price>4.90</price>
+            </flatrate>
+            <freeshipping>
+                <active>1</active>
+                <title>Versandkosten</title>
+                <name>Versandkostenfrei</name>
+                <free_shipping_subtotal>50</free_shipping_subtotal>
+            </freeshipping>
+        </carriers>
+
+        <payment>
+            <ccsave>
+                <active>0</active>
+            </ccsave>
+            <NLeckmo>
+                <active>0</active>
+            </NLeckmo>
+            <free>
+                <title>Kostenfrei</title>
+            </free>
+            <banktransfer>
+                <active>1</active>
+                <title>Vorkasse</title>
+                <sort_order>20</sort_order>
+            </banktransfer>
+        </payment>
+
+        <magento_localized>
+            <module_title>Magento NL</module_title>
+            <module_code>magento_nl</module_code>
+            <module_url>http://www.nr-apps.com/store/magento-nl.html</module_url>
+            <logo_filename>magento_localized/logo.png</logo_filename>
+            <tracking_url>http://www.nr-apps.com/n/germanstoreconfig/tracking</tracking_url>
+            <newsfeed_url>http://www.nr-apps.com/n/media/germanstoreconfig/feed.xml</newsfeed_url>
+            <iframe_url_prefix>https://www.nr-apps.com/n/magento_nl_</iframe_url_prefix>
+            <iframe_url_suffix>.html</iframe_url_suffix>
+            <iframe_main_language_code>nl</iframe_main_language_code>
+            <iframe_fallback_language_code>en</iframe_fallback_language_code>
+            <feed_url_prefix>http://www.nr-apps.com/n/media/germanstoreconfig/</feed_url_prefix>
+            <default_language>nl_NL</default_language>
+            <available_languages>
+                <en_US />
+                <de_DE />
+                <fr_FR />
+            </available_languages>
+            <country>NL</country>
+            <currency>EUR</currency>
+            <timezone>Europe/Berlin</timezone>
+            <install_guide_url>
+                <nl>http://www.nr-apps.com/n/magento_nl_nl/guide.html</nl>
+                <default>http://www.nr-apps.com/n/magento_nl_en/guide.html</default>
+            </install_guide_url>
+            <survey_url>
+                <de>http://www.nr-apps.com/n/magento_nl_nl/survey.html</de>
+                <default>http://www.nr-apps.com/n/magento_nl_en/survey.html</default>
+            </survey_url>
+            <form_fields>
+                <general__imprint__vat_id>
+                    <type>text</type>
+                    <label>VAT-ID</label>
+                    <sorting>200</sorting>
+                    <optional>1</optional>
+                </general__imprint__vat_id>
+                <general__imprint__tax_number>
+                    <type>text</type>
+                    <label>Tax number</label>
+                    <sorting>210</sorting>
+                    <optional>1</optional>
+                </general__imprint__tax_number>
+                <general__imprint__court>
+                    <type>text</type>
+                    <label>Register court</label>
+                    <sorting>220</sorting>
+                    <optional>1</optional>
+                </general__imprint__court>
+                <general__imprint__register_number>
+                    <type>text</type>
+                    <label>Register number</label>
+                    <sorting>230</sorting>
+                    <optional>1</optional>
+                </general__imprint__register_number>
+                <general__imprint__financial_office>
+                    <type>text</type>
+                    <label>Financial office</label>
+                    <sorting>240</sorting>
+                    <optional>1</optional>
+                </general__imprint__financial_office>
+                <general__imprint__ceo>
+                    <type>text</type>
+                    <label>CEO</label>
+                    <sorting>250</sorting>
+                    <optional>1</optional>
+                </general__imprint__ceo>
+                <general__imprint__owner>
+                    <type>text</type>
+                    <label>Owner</label>
+                    <sorting>260</sorting>
+                    <optional>1</optional>
+                </general__imprint__owner>
+            </form_fields>
+            <modules>
+            </modules>
+        </magento_localized>
+        <magesetup>
+            <default_country>NL</default_country>
+        </magesetup>
+    </default>
+</config>

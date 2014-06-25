@@ -1,0 +1,9 @@
+{
+   "name": "integer-net/magento-localized-nl",
+   "type": "magento-module",
+   "description": "Dutch Localization package for Magento Localized (aka Magento NL)",
+   "homepage": "https://github.com/integer-net/MagentoLocalizedNL",
+   "require": {
+      "magento-hackathon/magento-composer-installer": "*"
+   }
+}

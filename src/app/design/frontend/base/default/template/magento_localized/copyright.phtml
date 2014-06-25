@@ -1,0 +1,14 @@
+<?php /** @var $this IntegerNet_MagentoLocalized_Block_Frontend_Copyright */ ?>
+
+<p>
+    <?php $localeCode = Mage::app()->getLocale()->getLocaleCode() ?>
+    <?php echo Mage::helper('magento_localized')->__('<a href="%s" target="_blank">%s</a> is a project of the Magento community',
+        'http://www.nr-apps.com/store/magento-nl.html',
+        'Magento NL'
+    ) ?>
+    <?php echo Mage::helper('magento_localized')->__('powered by') ?>
+    <?php echo Mage::helper('magento_localized')->__('<a href="%s" target="_blank">Netresearch App Factory</a> &amp; <a href="%s" target="_blank">integer_net</a>',
+        'http://www.nr-apps.com',
+        'http://www.integer-net.com'
+    ) ?>
+</p>

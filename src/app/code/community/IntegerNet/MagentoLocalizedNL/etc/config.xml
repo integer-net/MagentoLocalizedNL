@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /**
- * Austrian Localization package for Magento Localized (aka Magento NL) 
+ * Dutch Localization package for Magento Localized (aka Magento NL) 
  *
  * @category   IntegerNet
  * @package    IntegerNet_MagentoLocalizedNL
@@ -91,9 +91,9 @@
             <ccsave>
                 <active>0</active>
             </ccsave>
-            <NLeckmo>
+            <checkmo>
                 <active>0</active>
-            </NLeckmo>
+            </checkmo>
             <free>
                 <title>Kostenfrei</title>
             </free>
@@ -130,7 +130,7 @@
                 <default>http://www.nr-apps.com/n/magento_nl_en/guide.html</default>
             </install_guide_url>
             <survey_url>
-                <de>http://www.nr-apps.com/n/magento_nl_nl/survey.html</de>
+                <nl>http://www.nr-apps.com/n/magento_nl_nl/survey.html</nl>
                 <default>http://www.nr-apps.com/n/magento_nl_en/survey.html</default>
             </survey_url>
             <form_fields>

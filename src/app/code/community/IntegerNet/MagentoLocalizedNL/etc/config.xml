@@ -31,11 +31,6 @@
                 <merchant_country>NL</merchant_country>
             </store_information>
             <imprint>
-                <shop_name>Beispielshop</shop_name>
-                <company_first>Musterfirma GmbH</company_first>
-                <zip>1234</zip>
-                <street>Musterstr. 1</street>
-                <city>Musterstadt</city>
                 <country>NL</country>
                 <display_copyright>1</display_copyright>
             </imprint>

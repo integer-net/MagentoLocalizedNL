@@ -38,7 +38,7 @@
 
         <design>
             <header>
-                <welcome>Herzlich Willkommen!</welcome>
+                <welcome>Welkom!</welcome>
             </header>
         </design>
 
@@ -49,7 +49,7 @@
             </custom_options>
             <baseprice>
                 <base_price_incl_tax>1</base_price_incl_tax>
-                <frontend_label>entspricht {{baseprice}} pro {{reference_amount}} {{reference_unit}}</frontend_label>
+                <frontend_label>correspondeert {{baseprice}} per {{reference_amount}} {{reference_unit}}</frontend_label>
             </baseprice>
         </catalog>
 
@@ -69,15 +69,15 @@
 
         <carriers>
             <flatrate>
-                <title>Versandkosten</title>
-                <name>Pauschal</name>
+                <title>opbrengst</title>
+                <name>forfaitaire</name>
                 <type>O</type>
                 <price>4.90</price>
             </flatrate>
             <freeshipping>
                 <active>1</active>
-                <title>Versandkosten</title>
-                <name>Versandkostenfrei</name>
+                <title>opbrengst</title>
+                <name>GRATIS Verzending</name>
                 <free_shipping_subtotal>50</free_shipping_subtotal>
             </freeshipping>
         </carriers>
@@ -90,11 +90,11 @@
                 <active>0</active>
             </checkmo>
             <free>
-                <title>Kostenfrei</title>
+                <title>gratis</title>
             </free>
             <banktransfer>
                 <active>1</active>
-                <title>Vorkasse</title>
+                <title>vooruitbetaling</title>
                 <sort_order>20</sort_order>
             </banktransfer>
         </payment>
@@ -131,31 +131,31 @@
             <form_fields>
                 <general__imprint__vat_id>
                     <type>text</type>
-                    <label>VAT-ID</label>
+                    <label>BTW-ID</label>
                     <sorting>200</sorting>
                     <optional>1</optional>
                 </general__imprint__vat_id>
                 <general__imprint__tax_number>
                     <type>text</type>
-                    <label>Tax number</label>
+                    <label>fiscaal nummer</label>
                     <sorting>210</sorting>
                     <optional>1</optional>
                 </general__imprint__tax_number>
                 <general__imprint__court>
                     <type>text</type>
-                    <label>Register court</label>
+                    <label>register rechter</label>
                     <sorting>220</sorting>
                     <optional>1</optional>
                 </general__imprint__court>
                 <general__imprint__register_number>
                     <type>text</type>
-                    <label>Register number</label>
+                    <label>Registreer nummer</label>
                     <sorting>230</sorting>
                     <optional>1</optional>
                 </general__imprint__register_number>
                 <general__imprint__financial_office>
                     <type>text</type>
-                    <label>Financial office</label>
+                    <label>financiële kantoor</label>
                     <sorting>240</sorting>
                     <optional>1</optional>
                 </general__imprint__financial_office>
@@ -167,7 +167,7 @@
                 </general__imprint__ceo>
                 <general__imprint__owner>
                     <type>text</type>
-                    <label>Owner</label>
+                    <label>eigenaar</label>
                     <sorting>260</sorting>
                     <optional>1</optional>
                 </general__imprint__owner>
